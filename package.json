@@ -4,7 +4,7 @@
   "description": "Simple jenkins pipeline for nodejs app",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha ./test/test.js"
+    "test": "./node_modules/.bin/mocha ./test/test.js --exit"
   },
   "repository": {
     "type": "git",
